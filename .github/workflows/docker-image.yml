@@ -29,5 +29,5 @@ jobs:
           context: .
           platforms: amd64
           push: true
-          tags: ${{ github.repository_owner }}/jacoco-agent-docker:${{ github.ref_name }}
+          tags: ghcr.io/${{ github.repository_owner }}/jacoco-agent-docker:${{ github.ref_name }}
         
